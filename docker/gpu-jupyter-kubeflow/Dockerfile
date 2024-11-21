@@ -1,10 +1,10 @@
 FROM animcogn/face_recognition:gpu
 
-RUN useradd -ms /bin/bash jovyan && \
-    chown -R jovyan:jovyan /opt/venv && \
-    echo 'PATH="/opt/venv/bin:$PATH"' >> /home/jovyan/.bashrc
-
-USER jovyan
+# RUN useradd -ms /bin/bash jovyan && \
+#    chown -R jovyan:jovyan /opt/venv && \
+#    echo 'PATH="/opt/venv/bin:$PATH"' >> /home/jovyan/.bashrc
+#
+# USER jovyan
 
 ENV PATH="/opt/venv/bin:$PATH"
 
