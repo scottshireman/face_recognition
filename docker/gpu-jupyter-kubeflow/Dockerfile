@@ -8,7 +8,7 @@ USER jovyan
 
 ENV PATH="/opt/venv/bin:$PATH"
 
-RUN pip3 install tqdm
+RUN pip3 install tqdm opencv-contrib-python-headless
 RUN pip3 install jupyterlab
 
 ENV NB_PREFIX /
