@@ -1,4 +1,4 @@
-FROM dlib:gpu
+FROM animcogn/face_recognition:gpu
 
 # RUN useradd -ms /bin/bash jovyan && \
 #    chown -R jovyan:jovyan /opt/venv && \
